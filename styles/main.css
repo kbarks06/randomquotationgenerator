@@ -1,16 +1,23 @@
 body{
-    background-color: lightskyblue;
+    background-color: aliceblue;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
 }
-
+header h2{
+    color: darkblue;
+}
 header h3{
-
+   font-size: 85%;
 }
 
 button{
     background-color: red;
+    size: 100%;
 }
 
 footer{
-    
+    display: flex;
+    padding: 2em 0;
+    justify-content: center;
+    margin-top: 20px;
 }

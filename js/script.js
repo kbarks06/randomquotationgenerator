@@ -19,7 +19,7 @@ function generateQuote() {
     ];
 
     let arrayIndex = Math.floor(Math.random() * quotes.length);
-    document.getElementById("quotation").innerHTML = "&quote;" + quotes[arrayIndex].quote;
+    document.getElementById("quotation").innerHTML = "&quot;" + quotes[arrayIndex].quote + "&quot;";
     document.getElementById("author").innerHTML = "By: " + quotes[arrayIndex].author;
 }
 
